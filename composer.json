@@ -1,5 +1,5 @@
 {
-    "name": "solarium/solarium-cloud",
+    "name": "johnblythe/solarium-cloud",
     "type": "library",
     "description": "PHP SolrCloud client",
     "keywords": ["solr", "solrcloud", "solarium", "solr-client", "search", "zookeeper", "zookeeper-client", "php"],
