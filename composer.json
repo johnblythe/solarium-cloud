@@ -1,0 +1,30 @@
+{
+    "name": "solarium/solarium-cloud",
+    "type": "library",
+    "description": "PHP SolrCloud client",
+    "keywords": ["solr", "solrcloud", "solarium", "solr-client", "search", "zookeeper", "zookeeper-client", "php"],
+    "homepage": "https://github.com/solariumphp/solarium-cloud",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Jeroen Steggink",
+            "homepage": "https://knowsy.nl",
+            "role": "Developer"
+        },
+        {
+            "name": "See GitHub contributors",
+            "homepage": "https://github.com/solariumphp/solarium-cloud/contributors"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "solarium/solarium": "~4.0",
+        "symfony/cache": "~3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.1"
+    },
+    "autoload": {
+        "psr-4": { "Solarium\\Cloud\\": "src/Solarium/Cloud/" }
+    }
+}
